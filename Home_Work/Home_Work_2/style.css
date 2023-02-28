@@ -1,6 +1,22 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url("./Font/Gilroy-Bold.woff2");
+}
+  
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url("./Font/Gilroy-Medium.woff2");
+}
+
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url("./Font/Gilroy-Semibold.woff2");
+}
+
+
 * {
 	padding: 0;
-	margin: 0;
+	/* margin: 0; */
 	box-sizing: border-box;
 	text-decoration: none;
 }
@@ -16,30 +32,26 @@ img {
 	max-width: 100%;
 }
 
-.container img{
-  padding: 45px 0 48px 0;
-  } 
 
-
-.container1 a{
-  padding: 11px 0 12px 0;
-}
-
-
-.container1{
-  margin: 37px 0 60px 0;
+.links{
+  display: flex;
+  justify-content: space-between;
+  width: 533px;
 }
 
 header{
-  margin-bottom: 21px;
+  margin-bottom: 84px;
+  margin-top: 40px;
 }
 
 .navigation {
-  padding: 14px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
-h1, .btns, .content1{
+h1, button, .content1{
   font-family: 'Gilroy-Bold';
 }
 
@@ -62,15 +74,20 @@ main{
 }
 
 .btn{
+  padding: 15.5px 35.5px;
   font-size: 15px;
-  line-height: 18px;
+  line-height: 30px;
   color: #FFFFFF;
   background: #F25822;
-box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
-border-radius: 50px;
-border: none
+  border-radius: 50px;
+  border: none
+  
 }
 
+.btn1{
+  background: #FFFFFF;
+  border: none
+}
 
 .iskluch{
   font-family: 'Gilroy-Medium';
@@ -80,30 +97,74 @@ color: #888888;
 }
 
 
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
 
 
+.logos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.article {
+  
+}
+
+.content_wrapper{
+  display: flex;
+  gap: 40.94px;
+}
+
+.btns-list{
+  display: flex;
+  gap: 43px;
+}
 
 
+/* .content .iskluch {
+  font-size: 20px;
+  line-height: 23px;
+  width: 466px;
+  margin-bottom: 37px;
+  } */
 
 
+  .container1{
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+  }
 
 
+  .content_wrapper p{
+    font-size: 20px;
+  line-height: 23px;
+  width: 466px;
+  margin-bottom: 37px;
+  }
 
 
+.container1 img{
+  margin-top: 259.45px;
+}
 
 
+.type1 {
+  font-family: 'Gilroy-Medium';
+  font-size: 14px;
+  line-height: 16px;
+  color: #F25822;
+}
 
 
-
-
-
-
-
-
-
-
-
-
+.type2 {
+  font-family: 'Gilroy-SemiBold';
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
 
 
 
