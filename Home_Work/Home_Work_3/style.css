@@ -15,7 +15,7 @@ body {
 
 img {
   display: block;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 .container {
@@ -51,7 +51,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 0 0 0 63px; */
 }
 
 .Zagolovok {
@@ -60,7 +59,6 @@ img {
   border-left: 12px solid #f16d7f;
   max-width: 415px;
   height: 92px;
-  /* padding: 0 0 0 16px; */
 }
 
 .Zagolovok_h1{
@@ -68,6 +66,9 @@ img {
   font-weight: 900;
   font-size: 48px;
   line-height: 58px;
+  font-family: "Lato";
+  font-style: normal;
+  color: #222222;
 }
 
 .Zagolovok_h3{
@@ -242,15 +243,6 @@ main {
   display: flex;
   justify-content: center;
   padding: 48px 0 60px 0;
-}
-
-.title_text h1 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 58px;
-  color: #222222;
 }
 
 .Pervaay_polovina h3 {
@@ -428,15 +420,189 @@ main {
     gap: 16px ;
   }
 
-  
-
-  .Uvelichenie_Picture {
-
-  } 
-
 }
 
+@media (max-width: 376px) {
+  
+  .container{
+    width: 375px;
+  }
 
+  .container1{
+    margin: 0 auto;
+    padding: 18px 0 18px 16px;
+  }
+
+  .navigation{
+    display: flex;
+    gap: 200px;
+  }
+
+  .Accaunt, .Korzina, .title_text img{
+    display: none;
+  }
+
+  .title_text{
+    padding: 148px 56px;
+  }
+
+  .Zagolovok{
+    height:61px;
+  }
+
+  .Zagolovok_h1{
+    padding-left: 15px;
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .Zagolovok_h3{
+    padding-left: 15px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .Pervaay_polovina{
+    padding: 0 16px;
+    margin-bottom: 64px;
+  }
+
+  .firsts_3{
+    display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 32px;
+  }
+
+  .Picture1{
+    background-size: 343px 247px;
+    width: 343px;
+    height: 247px;
+  } 
+
+  .Text_Picture1{
+    padding: 98px 95px; 
+  }
+
+  .Texts_Picture1{
+    width: 154px;
+    height: 50px;
+  }
+
+  .Picture2{
+    background-size: 344px 249px;
+    width: 344px;
+    height: 249px;
+  }
+
+  .Text_Picture2{
+    padding:102px 73px 76px 73px; 
+  }
+
+  .Picture3{
+    background-size: 343px 248px;
+    width: 343px;
+    height: 248px;
+  }
+
+  .Text_Picture3{
+    padding: 105px 90px 72px 90px; 
+  }
+
+  .Picture4{
+    background-size: 343px 111px;
+    width: 343px;
+    height: 111px;
+  }
+
+  .Text_Picture4{
+    padding: 30px 92px;
+  }
+
+  .Texts_Picture2{
+    width: 160px;
+    height: 50px;
+  }
+
+  .Prom_Text{
+    padding: 0 0 65px 0;
+  }
+
+  .Prom_Text p{
+    padding: 3px 14px 0px 10px;
+  }
+
+  .Vtoraay_polovina {
+    padding: 0 8px;
+    margin-bottom: 85px;
+  } 
+
+  .IMG_Vtoroy_poloviniy {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 17px ;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
